@@ -15,7 +15,7 @@ void loop() {
   lcd.setCursor(0,1);
   lcd.print("Count Loop");
   lcd.print(countLoop);
-  countLoop--;
+  countLoop++;
   delay(1000);
   // put your main code here, to run repeatedly:
 
@@ -26,7 +26,8 @@ void rutinInterupsi0()
   lcd.print("Int0 Program");
   lcd.setCursor(0,1);
   lcd.print("Interrupt INT0");
-  delay(3000);
+  delay(2000);
+  lcd.clear();
 }
 void rutinInterupsi1()
 {
@@ -34,5 +35,6 @@ void rutinInterupsi1()
   lcd.print("Int0 Program");
   lcd.setCursor(0,1);
   lcd.print("Interrupt INT1");
-  delay(3000);
+  delay(2000);
+  lcd.clear();
 }
