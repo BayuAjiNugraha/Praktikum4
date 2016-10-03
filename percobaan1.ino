@@ -24,7 +24,7 @@
     lcd.setCursor(0,1);
     lcd.print("Interrupt INT0");
   delay (2000);
-  //lcd.clear();
+ lcd.clear();
   }
   void rutinInterupsi1()
   {
@@ -33,6 +33,7 @@
     lcd.setCursor(0,1);
     lcd.print("Interrupt INT1");
    delay (2000);
+    lcd.clear();
    
   }
   // put your setup code here, to run once:
